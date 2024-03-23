@@ -1,4 +1,4 @@
-import { getResult, getString, getLength } from '../src/basic';
+import { getNumber, getResult, getString, getLength } from '../src/basic';
 
 describe("Variables en JS", () => {
     it("Completa todas las constantes que faltan", () => {
@@ -101,6 +101,11 @@ describe("condicionales en javascript", () => {
 });
 
 describe("Funciones en JS", () => {
+    it('¿Cuál es el resultado de invocar la función getNumber?', () => {
+        let result = getNumber();
+        // substituye "???" por el valor que tiene la variable "result"
+        expect(result).toBe("???");
+    });
     it("¿Cuál es el resultado de invocar la función getResult?", () => {
         let result = getResult(10, 30, 2);
         // substituye "???" por el valor que tiene la variable "result"        

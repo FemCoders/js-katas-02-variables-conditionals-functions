@@ -1,5 +1,9 @@
 //No modifiques las funciones aquí, solo mira lo que devuelven.
 
+function getNumber(){
+    return 1 + 1;
+};
+
 function getResult(a, b, c) {
     return b - a + 4 * c;
 };
@@ -21,4 +25,4 @@ function getLength(name) {
     }
 };
 
-export { getResult, getString, getLength };
+export { getNumber, getResult, getString, getLength };
