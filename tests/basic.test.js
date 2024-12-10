@@ -7,7 +7,7 @@ describe("Variables en JS", () => {
 
         expect(a).toBe(10);
         expect(b).toBe(1.34);
-        expect(c).toBeTruthy(true);
+        expect(c).toBeTruthy();
         expect(d).toBe("Buenos días");
         expect(e).toBe("Pepe");
         expect(f).toBe("Buenos días, pepe");
